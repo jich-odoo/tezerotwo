@@ -3,36 +3,6 @@
 
     <data noupdate="1">
 
-        <record id="motorcycle_01" model="motorcycle.registry">
-            
-            <field name="registry_number">114514</field>
-            <field name="vin">vin114514</field>
-            <field name="first_name">test first name 1</field>
-            <field name="last_name">test last name 1</field>
-            <field name="current_mileage">999</field>
-
-        </record>
-
-        <record id="motorcycle_02" model="motorcycle.registry">
-            
-            <field name="registry_number">123456</field>
-            <field name="vin">vin123456</field>
-            <field name="first_name">test first name 2</field>
-            <field name="last_name">test last name 2</field>
-            <field name="current_mileage">1000</field>
-
-        </record>
-
-        <record id="motorcycle_03" model="motorcycle.registry">
-            
-            <field name="registry_number">654321</field>
-            <field name="vin">vin654321</field>
-            <field name="first_name">test first name 3</field>
-            <field name="last_name">test last name 3</field>
-            <field name="current_mileage">1001</field>
-
-        </record>
-
     </data>
 
 </odoo>
