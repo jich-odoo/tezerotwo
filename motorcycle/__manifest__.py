@@ -10,8 +10,14 @@ This Module is used to keep track of the Motorcycle Registration and Ownership o
     'website': 'https://github.com/jich-odoo',
     'category': 'Kawiil / Kawiil',
     'depends': ['base'],
-    'data': [],
-    'demo': [],
+    'data': [
+        'security/motorcycle_groups.xml',
+        'security/ir.model.access.csv',
+        'security/motorcycle_security.xml',
+    ],
+    'demo': [
+        'demo/motorcycleregistry_demo.xml',
+    ],
     'application': True,
    
 }
